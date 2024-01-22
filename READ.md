@@ -16,6 +16,7 @@ Live Site on GitHub Pages
 You can access the live version of the Toy Collection web application on GitHub Pages:
 
 Toy Collection Live Site
+https://trello.com/b/QVmLrXn1/toy-collection
 
 Copyright and License
 This project is licensed under the MIT License.
