@@ -1,6 +1,7 @@
+/* Base Styles */
 body {
-    font-family: Arial, sans-serif;
     background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,20 +9,22 @@ body {
 h1 {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 1rem 0;
     margin: 0;
+    padding: 1rem 0;
+    text-align: center;
 }
 
+/* Container Styles */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
 }
 
+/* Toy List Styles */
 .toy-list {
     display: flex;
     flex-wrap: wrap;
@@ -29,30 +32,33 @@ h1 {
     justify-content: center;
 }
 
+/* Toy Item Styles */
 .toy {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 10px;
-    max-width: 200px;
-    text-align: center;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
 }
 
 .toy img {
     max-width: 100%;
 }
 
+/* Add Toy Styles */
 .add-toy {
     margin-top: 20px;
     text-align: center;
 }
 
+/* Form Styles */
 form {
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items: center;
 }
 
 label {
@@ -61,50 +67,50 @@ label {
 
 input[type="text"],
 input[type="url"] {
-    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    padding: 5px;
     width: 100%;
 }
 
+/* Button Styles */
 button {
     background-color: #007bff;
-    color: #fff;
     border: none;
-    padding: 10px 20px;
     border-radius: 5px;
+    color: #fff;
     cursor: pointer;
+    padding: 10px 20px;
     transition: background-color 0.2s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #1717dc;
 }
-/* Style for the footer within the Toy Collection section */
-#toy-collection-footer {
-    background-color: #f0f0f0;
+
+/* Footer Styles */
+#toy-collection-footer,
+#page-footer {
     padding: 10px;
     text-align: center;
 }
 
-#toy-collection-footer p {
-    margin: 5px 0;
+#toy-collection-footer {
+    background-color: #f0f0f0;
 }
 
-/* Style for the footer for the entire page */
 #page-footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;
-    text-align: center;
 }
 
+#toy-collection-footer p,
 #page-footer p {
     margin: 5px 0;
 }
 
-/* Style for the phone number in the footer */
+/* Style for the phone number */
 #toy-collection-footer p:nth-child(3) {
+    color: #007bff; /* Blue color */
     font-weight: bold;
-    color: #007bff; /* Blue color for phone number */
 }
